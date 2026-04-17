@@ -5,10 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>🦖 Secret Page</title>
   <meta name="robots" content="noindex, nofollow">
-  <link rel="stylesheet" href="css/navbar.css">
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="css/cart.css">
-  <link rel="stylesheet" href="css/dino.css">
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="dino.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap" rel="stylesheet">
   <style>
     body {
@@ -67,29 +66,20 @@
       <a href="index.html"><img src="images/mozartlaserlogo.png" alt="MozartLaser" class="logo"></a>
       <nav class="main-nav">
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="create.html">Create</a></li>
-			 <li><a href="blog.html">Blog</a></li>
-          <li><a href="About.html">About</a></li>
+          <li><a href="mozartlaser.com/index.html">Home</a></li>
+          <li><a href="mozartlaser.com/products.html">Products</a></li>
+          <li><a href="mozartlaser.com/create.html">Create</a></li>
+			 <li><a href="mozartlaser.com/blog.html">Blog</a></li>
+          <li><a href="mozartlaser.com/About.html">About</a></li>
         </ul>
       </nav>
       <div class="hamburger"><span></span><span></span><span></span></div>
     </div>
-    <div class="cart-icon" id="cart-icon">
-      <img src="images/cart-icon.png" alt="Cart">
-      <span id="cart-count">0</span>
-    </div>
+    
+
   </header>
 
-  <!-- CART PANEL -->
-  <div class="cart-panel" id="cart-panel">
-    <h3>Shopping Cart</h3>
-    <ul id="cart-items"></ul>
-    <p>Total: $<span id="cart-total">0.00</span></p>
-    <button id="checkout">Checkout</button>
-    <button id="close-cart">Close</button>
-  </div>
+  
 
   <!-- SECRET  -->
   <div class="secret-header">
@@ -121,8 +111,8 @@
     </div>
   </footer>
 
-  <script src="js/navbar.js"></script>
-  <script src="js/cart.js"></script>
+  <script src="navbar.js"></script>
+  <script src="cart.js"></script>
   <!-- Patch loadSounds before dino.js runs -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -132,7 +122,7 @@
       }
     });
   </script>
-  <script src="js/dino.js"></script>
+  <script src="dino.js"></script>
 
 </body>
 </html>
